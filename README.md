@@ -49,7 +49,7 @@ Fragment analysis is essential for understanding the structural evolution in MD 
 3. **Bond Determination**  
    A bond is determined if the interatomic distance is less than:
 
-cutoff = scale * (atomic_radius_atom1 + atomic_radius_atom2)
+         cutoff = scale * (atomic_radius_atom1 + atomic_radius_atom2)
 
 
 4. **Fragment Grouping**  
@@ -97,21 +97,62 @@ Summarizes each fragment by counting constituent elements and formatting the res
 
 ---
 
-## Installation
-
- git clone https://github.com/yourusername/MD-Fragment-Analyzer.git
- cd MD-Fragment-Analyzer
- pip install -r requirements.txt
-
----
-
 ## Usage
+For CPU + GPU version:
+
+ python MD_FA_v1.3.py
+
+For CPU only version:
 
  python MD_FA_v1.4.py
 
-For advanced batch processing or to leverage the latest features, consider using:
+For compiling to binary without using ase library, consider using:
 
  python MD_FA_v1.5.py
+
+---
+
+## Tutorial
+
+This section provides a step-by-step guide on using the GUI for MD fragment analysis.
+
+### 1. Launching the GUI
+
+When you run the application, the main GUI window appears. Here you can load your MD simulation file and adjust analysis settings.
+
+<div align="center">
+<img src="https://github.com/lulelaboratory/MD_Fragment_Analyzer/blob/main/example/GUI/GUI_Launch.png" alt="GUI Launch Screen" width="600" />
+</div>
+
+### 2. Loading Data & Setting Options
+
+Click the **"Load File"** button to select your XYZ file. Adjust parameters such as:
+- **Number of Cores**
+- **GPU Acceleration** (if available)
+- **Radii Type** (Covalent or Van der Waals)
+- **Periodic Boundary Conditions**
+
+<div align="center">
+<img src="https://github.com/lulelaboratory/MD_Fragment_Analyzer/blob/main/example/GUI/Main_GUI.png" alt="GUI Options Screen" width="600" />
+</div>
+
+### 3. Running the Analysis
+
+After configuring your settings, click the **"Run Counting"** button to start the analysis. The status area will update with progress messages.
+
+<div align="center">
+<img src="https://github.com/lulelaboratory/MD_Fragment_Analyzer/blob/main/example/GUI/Done_window.png" alt="GUI Running Screen" width="600" />
+</div>
+
+### 4. Viewing the Results
+
+Currently, to visualize the final fragment counts, you can use third-party code or visualization software to process the output data. For example, the following plot shows fragment counts per frame:
+
+<div align="center">
+<img src="https://github.com/lulelaboratory/MD_Fragment_Analyzer/blob/main/example/Data%20visualization_H2_O2_2000K.png" alt="Fragment Counts Visualization" width="600" />
+</div>
+
+*Note:* A built-in quick visualization function is under development.
 
 ---
 
