@@ -3,7 +3,7 @@ message: "If you use this software in your research, please cite it using the fo
 title: "MD Fragment Analyzer"
 version: "v1.5"
 date-released: "2025-03-03"
-doi: "10.5281/zenodo.xxxxxx"  # Replace with your actual DOI if available.
+doi: "10.5281/zenodo.14961945"  # Replace with your actual DOI if available.
 authors:
   - family-names: Lu
     given-names: Le
