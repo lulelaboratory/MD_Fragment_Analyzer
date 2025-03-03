@@ -162,6 +162,23 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
+## Citation
+
+If you use MD Fragment Analyzer in your research, please cite it as follows:
+
+```bibtex
+@misc{Lu2025MDFragmentAnalyzer,
+  author       = {Lu, Le},
+  title        = {MD Fragment Analyzer},
+  year         = {2025},
+  publisher    = {GitHub},
+  howpublished = {\url{https://github.com/lulelaboratory/MD_Fragment_Analyzer}},
+  note         = {Version v1.5. Accessed: 2025-03-03},
+  doi          = {10.5281/zenodo.14961945} 
+```
+
+---
+
 ## Acknowledgments
 
 Developed by Le Lu ([lulelaboratory@gmail.com](mailto:lulelaboratory@gmail.com)) in 2025. For further details or support, please contact the author.
