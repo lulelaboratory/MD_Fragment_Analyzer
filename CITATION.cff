@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it using the following metadata."
+title: "MD Fragment Analyzer"
+version: "v1.5"
+date-released: "2025-03-03"
+doi: "10.5281/zenodo.xxxxxx"  # Replace with your actual DOI if available.
+authors:
+  - family-names: Lu
+    given-names: Le
+repository-code: "https://github.com/lulelaboratory/MD_Fragment_Analyzer"
+url: "https://github.com/lulelaboratory/MD_Fragment_Analyzer"
+license: "MIT"
