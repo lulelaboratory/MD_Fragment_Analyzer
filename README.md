@@ -98,17 +98,17 @@ Summarizes each fragment by counting constituent elements and formatting the res
 ---
 
 ## Usage
-For CPU + GPU version:
+- For CPU + GPU version:
 
- python MD_FA_v1.3.py
+   python MD_FA_v1.3.py
 
-For CPU only version:
+- For CPU only version:
 
- python MD_FA_v1.4.py
+   python MD_FA_v1.4.py
 
-For compiling to binary without using ase library, consider using:
+- For compiling to binary without using ase library, consider using:
 
- python MD_FA_v1.5.py
+   python MD_FA_v1.5.py
 
 ---
 
