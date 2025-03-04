@@ -121,10 +121,6 @@ This section provides a step-by-step guide on using the GUI for MD fragment anal
 
 When you run the application, the main GUI window appears. Here you can load your MD simulation file and adjust analysis settings.
 
-<div align="center">
-<img src="https://github.com/lulelaboratory/MD_Fragment_Analyzer/blob/main/example/GUI/GUI_Launch.png" alt="GUI Launch Screen" width="600" />
-</div>
-
 ### 2. Loading Data & Setting Options
 
 Click the **"Load File"** button to select your XYZ file. Adjust parameters such as:
