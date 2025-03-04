@@ -1,7 +1,8 @@
 <div align="center">
   <img src="https://github.com/lulelaboratory/MD_Fragment_Analyzer/blob/main/icon/MD_Frag.png" alt="MD Fragment Analyzer Icon" width="150" style="margin-bottom: 20px;" />
-  <h1>MD Fragment Analyzer</h1>
-  <p><em>Fragment analysis for molecular dynamics simulations</em></p>
+  <h1>MD Fragment Analyzer</h1> 
+  <p><em>Fragment analysis for molecular dynamics simulations</em></p> 
+  <a href="https://doi.org/10.5281/zenodo.14962022"><img src="https://zenodo.org/badge/941567553.svg" alt="DOI"></a>
 </div>
 
 ## Introduction
